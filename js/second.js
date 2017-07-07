@@ -1,3 +1,3 @@
-requirejs(['./common'], function (common) {
+requirejs(['./common'], function () {
     requirejs(['app/main2']);
 });
