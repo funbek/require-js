@@ -5,13 +5,11 @@
   "main": "require.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server",
-    "start": "simple-server public 3000"
+    "dev": "lite-server"
   },
   "author": "Funbek",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "lite-server": "^2.3.0",
-    "simple-server": "^1.0.1"
+    "lite-server": "^2.3.0"
   }
 }

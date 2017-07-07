@@ -9,9 +9,10 @@ define(function() {
       };
 
       for (var key in defineData) {
-
-        console.log( `Ключ: ${key}, Значение: ${defineData[key]}` )
-
+        var node = document.createElement("div");
+        var content = document.createTextNode( `Ключ: ${key}, Значение: ${defineData[key]}` )
+        node.appendChild(content);
+        document.getElementById("body").appendChild(node);
       }
     }
   }
